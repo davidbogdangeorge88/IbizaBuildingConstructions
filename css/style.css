@@ -3287,7 +3287,7 @@ html {
 }
 body {
 	font-family: "'Arial', sans-serif";
-	font-size: 17px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 400;
 	word-wrap: break-word;
@@ -3484,7 +3484,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: auto;
 	position: relative;
 	float: left;
-	background-color: #000000   ;
+	background-color: #1b1b1b;
 	z-index: 444;
 	display: none;
 }
@@ -3597,7 +3597,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 }
 .buildify_tm_trigger .hamburger .hamburger-inner::before, .buildify_tm_trigger .hamburger .hamburger-inner::after, .buildify_tm_trigger .hamburger .hamburger-inner {
-	background-color: #a99a86   ;
+	background-color: #fff;
 	width: 30px;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
@@ -3625,14 +3625,14 @@ h1, h2, h3, h4, h5, h6 {
 	overflow: hidden;
 }
 .buildify_tm_mobile_header_wrap .inner_navigation > ul > li {
-	margin: 0px 0px 15px 24px;
+	margin: 0px 0px 15px 0px;
 }
 .buildify_tm_mobile_header_wrap .inner_navigation > ul > li:last-child {
 	margin-bottom: 0px;
 }
 .buildify_tm_mobile_header_wrap .inner_navigation > ul > li > a {
 	text-decoration: none;
-	color: #a99a86 ;
+	color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-family: "Montserrat";
@@ -3914,10 +3914,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_social_list li a {
 	display: block;
-	width: 59px;
-	height: 59px;
-	line-height: 59px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
 	text-align: center;
+	border: 1px solid #9b9b9b;
 	border-radius: 100%;
 	color: #555;
 	font-size: 14px;
@@ -3970,7 +3971,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	bottom: -9px;
 	height: 50px;
-	background-color: #ffffff ;
+	background-color: #e9eff4;
 	content: '';
 	position: absolute;
 	left: 23px;
@@ -3991,11 +3992,11 @@ h1, h2, h3, h4, h5, h6 {
 	left: 12px;
 	bottom: 0px;
 	transform: skewX(-18deg);
-	background-color: #000000 ;
+	background-color: #191970;
 	z-index: 2;
 }
 .buildify_tm_connection .phone_numb_in {
-	background-color: #000000;
+	background-color: #191970;
 	padding-left: 87px;
 	padding-right: 40px;
 	position: relative;
@@ -4082,8 +4083,8 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0px;
 }
 .buildify_tm_main_title_wrap .subtitle p {
-	font-size: 19px;
-	color: #1a2421  ;
+	font-size: 17px;
+	color: #666666;
 }
 .buildify_tm_about_company_wrap .sign {
 	padding-top: 42px;
@@ -4192,7 +4193,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0px;
 	top: 0px;
 	border-top: 30px solid transparent;
-	border-left: 360px solid #000060  ;
+	border-left: 360px solid #0d0e13;
 }
 .buildify_tm_counter_wrap_all .leftbox p {
 	font-family: "Montserrat";
@@ -4415,8 +4416,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #041230;
 }
 .buildify_tm_principles_wrap .list_wrap ul li .inner .definition p {
-	font-size: 17px;
-	color: #1a2421 ;
+	font-size: 16px;
+	color: #666;
 	line-height: 1.6;
 }
 .buildify_tm_principles_wrap .list_wrap ul li .inner .number {
@@ -4433,7 +4434,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_principles_wrap .list_wrap ul li .inner .number span {
 	font-family: "Montserrat";
 	font-size: 36px;
-	color: #838996 ;
+	color: #fff;
 }
 .buildify_tm_principles_wrap .list_wrap ul li .inner .leftshape {
 	position: absolute;
@@ -4620,7 +4621,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 30px;
 }
 .buildify_tm_slider_title_wrap .subtitle p {
-	font-size: 20px;
+	font-size: 16px;
 	color: #ccc;
 }
 .buildify_check_list_wrap {
@@ -4805,8 +4806,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0px;
 }
 .buildify_tm_services_wrap .service_category ul li span {
-	font-size: 17px;
-	color: #1a2421 ;
+	font-size: 16px;
+	color: #666;
 	position: relative;
 	padding-left: 8px;
 }
@@ -4830,22 +4831,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_button_wrap a {
 	text-decoration: none;
-	color: #000000 ;
+	color: #181a2f;
 	font-family: "Montserrat";
 	font-size: 14px;
 	text-transform: uppercase;
-	background-color: #a67b5b         ;
+	background-color: #F1B24A;
 	padding: 17px 25px 16px 25px;
 	display: inline-block;
-	font-weight: 500;
+	font-weight: 600;
 	border-radius: 2px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box; /* Firefox, other Gecko */
 	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_button_wrap.yellow a {
-	color: #000000 ;
-	background-color: #c19a6b ;
+	color: #181a2f;
+	background-color: #F1B24A;
 }
 .buildify_tm_rightbox {
 	width: 100%;
@@ -4912,8 +4913,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #191970;
 }
 .buildify_tm_rightbox .services_list_wrap ul li .description p {
-	font-size: 17px;
-	color: #1a2421 ;
+	font-size: 16px;
+	color: #666666;
 	line-height: 1.6;
 }
 .buildify_tm_rightbox .services_list_wrap ul li .read_more_wrap {
@@ -4924,7 +4925,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_rightbox .services_list_wrap ul li .read_more_in {
 	height: 40px;
-	background-color: #c19a6b ;
+	background-color: #F1B24A;
 	line-height: 40px;
 	position: relative;
 }
@@ -4933,14 +4934,14 @@ h1, h2, h3, h4, h5, h6 {
 	content: "";
 	width: 25px;
 	height: 40px;
-	background-color: #c19a6b ;
+	background-color: #F1B24A;
 	left: 100%;
 	transform: skewX(27deg);
 	margin-left: -12px;
 }
 .buildify_tm_rightbox .services_list_wrap ul li .read_more_in a {
 	text-decoration: none;
-	color: #000000 ;
+	color: #181a2f;
 	display: block;
 	font-family: "Montserrat";
 	font-size: 13px;
@@ -4966,8 +4967,8 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_services_bottom_definition p {
-	font-size: 13px;
-	color: #080808 ;
+	font-size: 12px;
+	color: #999;
 	line-height: 1.5;
 }
 .buildify_tm_choose_us_wrap {
@@ -5129,7 +5130,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_rating_wrap .experience_box {
 	width: 220px;
 	height: 220px;
-	border: 10px solid #c19a6b ;
+	border: 10px solid #F1B24A;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -5160,7 +5161,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_rating_wrap .experience_box .bottom .definition {
 	font-family: "Montserrat";
 	font-size: 10px;
-	color: #c19a6b ;
+	color: #F1B24A;
 	text-transform: uppercase;
 	padding-left: 4px;
 	font-weight: 600;
@@ -5476,8 +5477,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 34px;
 }
 .buildify_tm_service_single_wrap .leftbox .image_definition p {
-	font-size: 17px;
-	color: #1b1b1b ;
+	font-size: 16px;
+	color: #666;
 	line-height: 1.6;
 	margin-bottom: 27px;
 }
@@ -5527,8 +5528,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 33px;
 }
 .buildify_tm_service_single_wrap .leftbox .service_features .definition p {
-	font-size: 17px;
-	color: #1b1b1b ;
+	font-size: 16px;
+	color: #666;
 }
 .buildify_tm_service_single_wrap .leftbox .service_features .icon {
 	position: absolute;
@@ -5646,7 +5647,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #000060     ;
+	background-color: #F1B24A;
 	padding: 21px 30px;
 	margin-bottom: 70px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -5659,7 +5660,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_short_contact .text p {
 	font-family: "Montserrat";
 	font-size: 22px;
-	color: #bfc1c2  ;
+	color: #181a2f;
 	line-height: 1.3;
 }
 .buildify_tm_line {
@@ -5741,8 +5742,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #191970;
 }
 .buildify_tm_other_services_wrap .services_list_wrap ul li .description p {
-	font-size: 17px;
-	color: #1b1b1b ;
+	font-size: 16px;
+	color: #666666;
 	line-height: 1.6;
 }
 .buildify_tm_other_services_wrap .services_list_wrap ul li .read_more_wrap {
@@ -5818,7 +5819,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_categories ul li a {
 	text-decoration: none;
 	font-family: "Montserrat";
-	font-size: 17px;
+	font-size: 16px;
 	color: #cccccc;
 	line-height: 2;
 	font-weight: 500;
@@ -5829,7 +5830,7 @@ h1, h2, h3, h4, h5, h6 {
 	transition: all .3s ease;
 }
 .buildify_tm_categories ul li.active a {
-	color: #c19a6b ;
+	color: #F1B24A;
 }
 .buildify_tm_categories ul li a:hover {
 	color: #F1B24A;
@@ -5911,7 +5912,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 	float: left;
 	position: relative;
-	background-color: #000080 ;
+	background-color: #191970;
 	padding: 50px 40px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -5947,7 +5948,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_request_estimate_wrap .first_shape .first {
 	position: absolute;
 	left: 0px;
-	border-bottom: 80px solid #000060  ;
+	border-bottom: 80px solid #191970;
 	border-right: 80px solid transparent;
 	z-index: 5;
 }
@@ -5961,7 +5962,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_request_estimate_wrap .first_shape .third {
 	position: absolute;
 	left: 0px;
-	border-bottom: 55px solid #000080   ;
+	border-bottom: 55px solid #191970;
 	border-right: 80px solid transparent;
 	z-index: 15;
 }
@@ -5971,7 +5972,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_request_estimate_wrap .second_shape .first {
 	position: absolute;
 	right: 0px;
-	border-bottom: 80px solid #000060  ;
+	border-bottom: 80px solid #191970;
 	border-left: 220px solid transparent;
 	z-index: 5;
 }
@@ -5985,7 +5986,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_request_estimate_wrap .second_shape .third {
 	position: absolute;
 	right: 0px;
-	border-bottom: 55px solid #000080   ;
+	border-bottom: 55px solid #191970;
 	border-left: 220px solid transparent;
 	z-index: 15;
 }
@@ -6352,7 +6353,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .builify_tm_breadcrumbs ul li a {
 	font-size: 14px;
-	color: #696969   ;
+	color: #666;
 	text-decoration: none;
 	letter-spacing: 0px;
 	line-height: 1.5;
@@ -6833,9 +6834,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 24px;
 }
 .buildify_tm_justified_content .leftpart .definition p {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.6;
-	color: #1b1b1b ;
+	color: #666;
 	margin-bottom: 15px;
 }
 .buildify_tm_justified_content .leftpart .definition p:last-child {
@@ -7006,7 +7007,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_working_process_wrap .leftbox .inner p {
 	font-family: "Montserrat";
 	font-size: 22px;
-	color: #d3d3d3 ;
+	color: #fff;
 	line-height: 1.3;
 	font-weight: 500;
 	margin-bottom: 35px;
@@ -7530,7 +7531,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_news_wrap .read_more_in {
 	height: 40px;
-	background-color: #c19a6b ;
+	background-color: #F1B24A;
 	line-height: 40px;
 	position: relative;
 }
@@ -7539,7 +7540,7 @@ h1, h2, h3, h4, h5, h6 {
 	content: "";
 	width: 25px;
 	height: 40px;
-	background-color: #c19a6b ;
+	background-color: #F1B24A;
 	left: 100%;
 	transform: skewX(27deg);
 	margin-left: -12px;
@@ -7612,7 +7613,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_blog_wrap .definitions_wrap .title_holder h3 {
-	font-size: 22px;
+	font-size: 30px;
 	font-family: "Montserrat";
 	line-height: 1;
 	color: #181a2f;
@@ -7642,7 +7643,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_blog_wrap .definitions_wrap .short_info span {
 	position: relative;
-	color: #1b1b1b ;
+	color: #666666;
 	font-size: 14px;
 	float: left;
 	padding-right: 22px;
@@ -7675,8 +7676,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 17px;
 }
 .buildify_tm_blog_wrap .definitions_wrap .text p {
-	font-size: 17px;
-	color: #1b1b1b  ;
+	font-size: 16px;
+	color: #666;
 	line-height: 1.6;
 }
 .buildify_tm_blog_wrap .definitions_wrap .continue {
@@ -7686,7 +7687,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_blog_wrap .definitions_wrap .continue a {
 	text-decoration: none;
 	font-size: 16px;
-	color: #a67b5b ;
+	color: #e78e25;
 	line-height: 1.6;
 	font-weight: 600;
 }
@@ -7894,8 +7895,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 17px;
 }
 .buildify_tm_about_wrap .about_service_list p {
-	color: #1b1b1b  ;
-	font-size: 17px;
+	color: #777777;
+	font-size: 16px;
 	line-height: 1.7;
 }
 .buildify_tm_about_counter_wrap {
@@ -7943,7 +7944,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_about_counter_wrap .buildify_tm_counter_wrap {
-	background-color: #080808 ;
+	background-color: #181a2f;
 	padding: 47px 0px 58px 0px !important;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -7974,7 +7975,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_about_counter_wrap .buildify_tm_counter_list li h3 {
 	font-family: "Montserrat";
-	color: #d3d3d3 ;
+	color: #eee;
 	font-size: 48px !important;
 	font-weight: 700;
 	line-height: 1;
@@ -8157,7 +8158,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 	float: left;
 	position: relative;
-	background-color: #080808;
+	background-color: #111422;
 	padding: 50px 70px 50px 80px;
 	margin-bottom: 100px;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -8189,7 +8190,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_introduce_wrap .inner_wrap .main_info_wrap .top_title {
-	color: #d3d3d3 ;
+	color: #fff;
 	font-size: 16px;
 	letter-spacing: 0px;
 	font-weight: 500;
@@ -8201,18 +8202,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 36px;
 	letter-spacing: 0px;
 	font-weight: 500;
-	color: #d3d3d3 ;
+	color: #fff;
 }
 .buildify_tm_introduce_wrap .inner_wrap .main_info_wrap .text {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.7;
-	color: #d3d3d3 ;
+	color: #fff;
 	margin-bottom: 30px;
 }
 .buildify_tm_introduce_wrap .experience_box {
 	width: 240px;
 	height: 240px;
-	border: 10px solid #c19a6b ;
+	border: 10px solid #fff;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -8228,7 +8229,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0px;
 	font-weight: 500;
 	margin-bottom: 10px;
-	color: #d3d3d3 ;
+	color: #fff;
 	line-height: 1.2;
 	font-family: "Montserrat";
 }
@@ -8239,7 +8240,7 @@ h1, h2, h3, h4, h5, h6 {
 .buildify_tm_introduce_wrap .experience_box .bottom .number span {
 	font-family: "Montserrat";
 	font-size: 72px;
-	color: #d3d3d3 ;
+	color: #fff;
 	letter-spacing: -0.25px;
 	line-height: 1;
 	font-weight: 500;
@@ -8269,7 +8270,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 70px;
 	height: 70px;
 	border-radius: 100%;
-	background-color: #c19a6b ;
+	background-color: #191970;
 	bottom: -20px;
 	left: 80px;
 	z-index: 3;
@@ -8307,14 +8308,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .qqq .first {
 	position: absolute;
-	border-bottom: 36px solid #c19a6b ;
+	border-bottom: 36px solid #191970;
 	border-left: 500px solid transparent;
 	top: 4px;
 	right: 75px;
 }
 .qqq .second {
 	position: absolute;
-	border-bottom: 36px solid #c19a6b ;
+	border-bottom: 36px solid #191970;
 	border-right: 15px solid transparent;
 	top: 4px;
 	right: 60px;
@@ -8513,7 +8514,7 @@ h1, h2, h3, h4, h5, h6 {
 	right: 0px;
 	bottom: 0px;
 	width: 60px;
-	background-color: #c19a6b ;
+	background-color: #F1B24A;
 }
 .buildify_tm_main_contact_wrap .office_list ul li .definitions_wrap .office .icon .svg {
 	position: absolute;
@@ -8541,13 +8542,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0px;
 }
 .buildify_tm_main_contact_wrap .office_list ul li .short_info_wrap p, .buildify_tm_main_contact_wrap .office_list ul li .short_info_wrap label, .buildify_tm_main_contact_wrap .office_list ul li .short_info_wrap span {
-	font-size: 17px;
-	color: #d3d3d3 ;
+	font-size: 16px;
+	color: #999999;
 	line-height: 1.5;
 }
 .buildify_tm_main_contact_wrap .office_list ul li .short_info_wrap span a {
 	text-decoration: none;
-	color: #c19a6b ;
+	color: #F1B24A;
 }
 .buildify_tm_main_contact_wrap .contact_text {
 	width: 100%;
@@ -8560,8 +8561,8 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_main_contact_wrap .contact_text p {
-	font-size: 17px;
-	color: #1b1b1b ;
+	font-size: 16px;
+	color: #777777;
 	line-height: 1.6;
 }
 .buildify_tm_main_contact_wrap .get_in_touch {
@@ -8615,8 +8616,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_contact_wrap .inner_wrap .row label {
 	display: block;
-	font-size: 15px;
-	color: #1b1b1b ;
+	font-size: 14px;
+	color: #777;
 	line-height: 1.7;
 	position: relative;
 }
@@ -8660,7 +8661,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat";
 	font-size: 14px;
 	text-transform: uppercase;
-	background-color: #c19a6b ;
+	background-color: #F1B24A;
 	padding: 17px 25px 16px 25px;
 	display: inline-block;
 	font-weight: 600;
@@ -8697,10 +8698,10 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url();
 }
 .buildify_tm_universal_parallax_wrap .overlay_color.footer {
-	background-color: #080808  ;
+	background-color: #0f0f0f;
 }
 .buildify_tm_universal_parallax_wrap .main_content.footer {
-	padding: 5px 0px 0px 0px;
+	padding: 38px 0px 0px 0px;
 }
 .buildify_tm_subscribe_wrap, .buildify_tm_subscribe_wrap .inner_wrap {
 	width: 100%;
@@ -8966,9 +8967,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 21px;
 }
 .buildify_tm_footer_wrap .buildify_tm_list_wrap .definition p {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.5;
-	color: #d3d3d3 ;
+	color: #999;
 }
 .buildify_tm_footer_wrap .inner_list ul {
 	margin: 0px;
@@ -8976,7 +8977,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .buildify_tm_footer_wrap .inner_list ul li {
 	margin: 0px;
-	border-bottom: 1px dashed #d3d3d3 ;
+	border-bottom: 1px dashed #29292d;
 	width: 100%;
 	float: left;
 	padding-bottom: 4px;
@@ -8995,16 +8996,16 @@ h1, h2, h3, h4, h5, h6 {
 	float: left;
 }
 .buildify_tm_footer_wrap .inner_list ul li .wrap .left, .buildify_tm_footer_wrap .inner_list ul li .wrap .right {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.5;
-	color: #c19a6b  ;
+	color: #999;
 }
 .buildify_tm_footer_wrap .inner_list ul li .wrap .left {
 	float: left;
 }
 .buildify_tm_footer_wrap .inner_list ul li .wrap .right {
 	float: right;
-	color: #c19a6b ;
+	color: #F1B24A;
 }
 .helpful_links .inner_list ul li {
 	border-bottom: none;
@@ -9014,8 +9015,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .helpful_links .inner_list ul li a {
 	text-decoration: none;
-	color: #d3d3d3 ;
-	font-size: 17px;
+	color: #999;
+	font-size: 16px;
 }
 .buildify_tm_footer_wrap .helpful_links ul li {
 	width: 50%;
@@ -9036,7 +9037,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box;
 }
 .buildify_tm_copyright_wrap {
-	background-color: #080808 ;
+	background-color: #0d0e13;
 	padding: 0px 0px;
 }
 .buildify_tm_copyright_wrap .inner_wrap {
@@ -9244,12 +9245,12 @@ h1, h2, h3, h4, h5, h6 {
 	height: 29px;
 	position: relative;
 	transform: rotate(90deg) translateZ(0px);
-	background-color: #c19a6b;
+	background-color: #F1B24A;
 }
 .buildify_tm_totop .top:before {
 	bottom: 100%;
 	border-top: 3px solid transparent;
-	border-left: 29px solid #c19a6b ;
+	border-left: 29px solid #191970;
 	content: '';
 	position: absolute;
 }
@@ -9294,7 +9295,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 18px;
 	}
 	.buildify_check_list_wrap ul li .title_holder .definition span {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.buildify_tm_main_title_holder .title_holder h3 {
 		font-size: 48px;
@@ -9512,7 +9513,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.buildify_tm_about_counter_wrap:before {
 		width: 100%;
-		background-color: #080808;
+		background-color: #181a2f;
 	}
 	.buildify_tm_about_counter_wrap .inner_counter .rightbox:before {
 		position: absolute;
@@ -9521,7 +9522,7 @@ h1, h2, h3, h4, h5, h6 {
 		left: -200px;
 		right: -200px;
 		bottom: -200px;
-		background-color: #080808;
+		background-color: #191970;
 		z-index: 1;
 	}
 	.buildify_tm_about_counter_wrap .inner_counter .inner_rightbox {
@@ -9541,7 +9542,7 @@ h1, h2, h3, h4, h5, h6 {
 		display: block;
 	}
 	.buildify_tm_topbar_info {
-		background-color: #000000        ;
+		background-color: #4d4d4d;
 	}
 	.buildify_tm_topbar_info .buildify_tm_social_list {
 		float: left;
@@ -9559,8 +9560,8 @@ h1, h2, h3, h4, h5, h6 {
 		display: none;
 	}
 	.buildify_tm_social_list li a {
-		color: #ffffff ;
-		border-color: #f0ffff  ;
+		color: #181a2f;
+		border-color: #181a2f;
 	}
 	.buildify_tm_social_list {
 		margin-right: 0px;
@@ -9599,8 +9600,8 @@ h1, h2, h3, h4, h5, h6 {
 		display: none;
 	}
 	.buildify_tm_connection .phone_numb_in {
-		padding-right: 200px !important;
-		padding-left: 20px !important;
+		padding-right: 20px !important;
+		padding-left: 0px !important;
 	}
 	.buildify_tm_connection .phone_numb img {
 		display: none;
@@ -9612,9 +9613,9 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 15px;
 	}
 	.buildify_tm_social_list li a {
-		width: 59px;
-		height: 59px;
-		line-height: 59px;
+		width: 28px;
+		height: 28px;
+		line-height: 28px;
 	}
 	.buildify_tm_content_inner {
 		padding: 0px;
@@ -9823,7 +9824,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 480px) {
 	.buildify_tm_connection .phone_numb p {
-		font-size: 15px;
+		font-size: 14px;
 		line-height: 15px !important;
 	}
 	.buildify_tm_connection {
