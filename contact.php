@@ -185,7 +185,7 @@
 									<div class="phone_numb">
 										<div class="phone_numb_in">
 											<img src="img/call.png" alt=""/>
-											<p>Marian Bocanet <span><a style="color: white;" href="tel:+34 673 515  599">+34 673 515  599</a></span>
+											<p>Alexander <span><a style="color: white;" href="tel:++41 779 819 363">+41 779 819 363</a></span>
 											</p>
 										</div>
 									</div>
@@ -210,13 +210,16 @@
 										</li>
 										<li><a href="#"><i class="xcon-gplus"></i></a>
 										</li>
-										<li><a style="border:none;" href="https://wa.me/34673515599"><img src="img/wp.png"></a> </li>
+										<li><a style="border:none;" href="https://wa.me/41779819363"><img src="img/wp.png"></a> </li>
 
 									</ul>
 								</div>
 							</div>
 							<!-- /TOPBAR -->
-
+             <div class="container">
+			<div class="image_holder">
+			<div><a href="https://ibizataxivan.com/ibiza-taxi-transfer.html"><img src="img/banner.gif" rel="canonical" alt="Ibiza Taxi Trasnsfer"> </div>
+			</div>
 							<!-- HEADER -->
 							<div class="buildify_tm_mobile_header_wrap">
 								<div class="in">
